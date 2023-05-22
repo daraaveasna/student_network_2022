@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  position: relative;
+  width: 300px;
+  height: 600px;
+  background: black;
+  border-radius: 50px;
+}
+.container::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background-color: white;
+  border-radius: 48px;
+}
+.screen {
+  position: absolute;
+  inset: 6px;
+  background: url(/student_network_2022/assets/images/whtie.png);
+  background-position: center;
+  border-radius: 48px;
+  border: 8px solid black;
+  display: flex;
+  justify-content: center;
+}
+.island {
+    position: absolute;
+    width: 90px;
+    height: 23px;
+    background: black;
+    top: 5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 15px;
+  }
+.island::hover {
+  width: 100px;
+  height: 35px;
+}
