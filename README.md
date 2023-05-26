@@ -1,6 +1,5 @@
-# <p align="center"> Student Network 2023 </p>
 ![MaterHead](https://github.com/daraaveasna/student_network_2022/blob/main/assets/images/githubBanner.gif)
-
+# <p align="center"> Student Network 2023 </p>
 <div align="center">
 <a href="https://www.twitter.com/daraa_veasna" target="_blank" rel="noreferrer"><img 
 src="https://img.shields.io/twitter/follow/daraa_veasna?logo=twitter&style=for-the-badge&color=0891b2&labelColor=181824"
