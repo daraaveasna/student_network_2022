@@ -29,7 +29,6 @@ body {
 .screen {
   /* position: absolute; */
   inset: 6px;
-  background: url(/student_network_2022/assets/images/whtie.png);
   background-position: center;
   border-radius: 48px;
   border: 8px solid black;
@@ -54,16 +53,13 @@ body {
   left: 35px;
   top: 25px;
   display: flex;
-  justify-content:space-between;
-  background-color: white;
-  border-radius: 48px;
+  justify-content:space-around;
 }
 .parent{
   margin: 5px;
   width: 98%;
   background-color: white;
   padding-top: 5px;
-  padding-bottom: 5px;
   border-radius: 10px;
   box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.186);
 }
@@ -132,4 +128,15 @@ body {
   margin-right: 5px;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.event{
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #127DB7;
+}
+.bottom-nav{
+  display: flex;
+  justify-content: space-evenly;
 }
