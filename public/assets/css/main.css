@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif; 
+}
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  /* position: relative; */
+  height: 852px;
+  width: 393px;
+  border-radius: 0px;
+  background: #f6f4f4b1;
+  border-radius: 50px;
+  border: 6px solid black;
+}
+/* .container::before {
+  content: "";
+  position: absolute;
+  inset: 6px;
+  background-color: white;
+  border-radius: 48px;
+} */
+.screen {
+  /* position: absolute; */
+  inset: 6px;
+  background-position: center;
+  border-radius: 48px;
+  border: 8px solid black;
+  display: flex;
+  justify-content: center;
+}
+.island{
+  width: 90px;
+  height: 100%;
+  background-color: black;
+  border-radius: 15px;
+}
+.island::hover {
+  width: 100px;
+  height: 35px;
+}
+.nav {
+  /* position: absolute; */
+  margin: 12px auto;
+  width: 90%;
+  height: 23px;
+  left: 35px;
+  top: 25px;
+  display: flex;
+  justify-content:space-around;
+}
+.parent{
+  margin: 5px;
+  width: 98%;
+  background-color: white;
+  padding-top: 5px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 0px 1px rgba(128, 128, 128, 0.186);
+}
+.profile{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.logo{
+  position: relative;
+}
+.name{
+  margin: 5px;
+  display: flex;
+  justify-content: space-between;
+}
+.search{
+  width: 30px;
+  height: 30px;
+  background-color: #EEEEEE;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.email{
+  width: 30px;
+  height: 30px;
+  background-color: #EEEEEE;
+  border-radius: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-between;
+}
+.bottons{
+  display: flex;
+  gap : 5px;
+  margin-right: 10px;
+}
+.card-header{
+  display: flex;
+  justify-content: space-between;
+  margin: 5px;
+  margin-bottom: 10px;
+}
+.emotion{
+  display: flex;
+  justify-content: flex-start;
+  margin-left: 10px;
+  gap: 5px;
+}
+.emotion-element{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2px;
+}
+.reaction{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.event{
+  display: flex;
+  gap: 5px;
+  font-size: 15px;
+  margin-left: 10px;
+  color: #127DB7;
+}
+.bottom-nav{
+  display: flex;
+  justify-content: space-evenly;
+}
