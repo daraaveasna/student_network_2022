@@ -8,17 +8,17 @@ src="https://img.shields.io/twitter/follow/daraa_veasna?logo=twitter&style=for-t
 <p align="center"> Demo for I3 students project   :octocat: </p>
 
 
-## Student Network 
-This project is a student network that allows students to connect with each other, find resources, and collaborate on projects. The network is designed to be mobile-friendly and can be accessed through a website or a mobile app. The website and mobile app are hosted on Firebase.
+# Student Network 
+> *This project is a student network that allows students to connect with each other, find resources, and collaborate on projects. The network is designed to be mobile-friendly and can be accessed through a website or a mobile app. The website and mobile app are hosted on Firebase.*
 
-## Features 
+# Features 
 * User profiles: Students can create profiles to share their information with other students.
 * Messaging: Students can send messages to each other to connect and collaborate.
 * Resource sharing: Students can share resources, such as documents, presentations, and code, with each other.
 * Project collaboration: Students can collaborate on projects with other students.
 
-## Getting Started
-To get started with the Student Network, you will need to:
+# Getting Started
+### To get started with the Student Network, you will need to:
 
 ### 1. Clone the repository from GitHub.
 
@@ -37,10 +37,23 @@ pip install -r requirements.txt
 ### 3. Create a Firebase project and add the configuration file to the project.
 ### 4. Run the development server.
 
-## Documentation
+# Documentation
 The documentation for the Student Network is available on the project website.
 
-## Contributing
+# Technologies
+<div align="left">
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg" height="40" width="52" alt="firebase logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg" height="40" width="52" alt="vscode logo"  />
+</div>
+
+###
+
+# Contributing
 Contributions to the Student Network are welcome. Please open an issue or submit a pull request if you would like to contribute.
 If you would like to contribute to this project, please follow the following steps:
 
@@ -50,5 +63,5 @@ If you would like to contribute to this project, please follow the following ste
 4. Push your changes to your fork.
 5. Create a pull request to merge your changes into the main branch.
 
-## License
+# License
 The Student Network is licensed under the I3GIC License.
